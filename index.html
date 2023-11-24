@@ -432,7 +432,7 @@
   
     form2.addEventListener('submit', e => {
       e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      fetch(scriptURL, { method: 'POST', body: new FormData(form2)})
         .then(response => {
             msg2.innerHTML = "Thank you For Getting in touch!"
             setTimeout(function(){
