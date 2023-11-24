@@ -436,9 +436,9 @@
         .then(response => {
             msg2.innerHTML = "Thank you For Getting in touch!"
             setTimeout(function(){
-                msg.innerHTML = ""
+                msg2.innerHTML = ""
             }, 5000)
-            form.reset()
+            form2.reset()
         })
         .catch(error => console.error('Error!', error.message))
     });
