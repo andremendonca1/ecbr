@@ -6,9 +6,9 @@
 }
 
 :root {
-  --color-light: #8EE3F8;
-  --color-dark: #053844;
-  --color-font: #012027;
+  --color-light: #97f88e;
+  --color-dark: #094405;
+  --color-font: #012701;
 }
 
 html {
@@ -90,7 +90,7 @@ UTILS
   display: none;
   min-width: 200px;
   backdrop-filter: blur(7px);
-  background: #6ecae1cc;
+  background: #85e16ecc;
   padding: 15px;
   border-radius: 5px;
   position: absolute;
@@ -110,7 +110,7 @@ UTILS
 
 
 .banner {
-  background: #e2f9ff;
+  background: #e5ffe2;
 }
 
 .banner .container {
@@ -206,7 +206,7 @@ UTILS
   transition: .15s;
 }
 .about .content a:hover {
-  background: #012027;
+  background: #012701;
 }
 
 .about .img img {
@@ -246,12 +246,12 @@ UTILS
   transition: .15s;
 }
 .promotion a:hover {
-  background: #012027;
+  background: #012701;
 }
 
 
 .services {
-  background: #e2f9ff;
+  background: #e4ffe2;
   padding: 100px 0;
 }
 .services h2 {
@@ -262,7 +262,7 @@ UTILS
   margin: 0 auto 10px auto;
 }
 .services p {
-  color: #053844;
+  color: #094405;
   font-size: 1.8rem;
   text-align: center;
   max-width: fit-content;
@@ -277,7 +277,7 @@ UTILS
 }
 .services .item {
   width: 100%;
-  background: #c8eaf4;
+  background: #cdf4c8;
   padding: 30px;
   border-radius: 5px;
 }
@@ -331,6 +331,52 @@ UTILS
   font-size: 1.6rem;
 }
 
+.survey h2 {
+  font-size: 4.8rem;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+.survey p {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+.survey strong {
+  display: block;
+  max-width: fit-content;
+  font-size: 1.6rem;
+  color: var(--color-light);
+  background: var(--color-dark);
+  padding: 2px 6px;
+  border-radius: 2px;
+  margin-bottom: 25px;
+}
+.survey .links {
+  display: flex;
+  gap: 40px;
+  max-width: fit-content;
+  margin: 0 auto 80px;
+}
+.survey .links a {
+  max-width: fit-content;
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background: var(--color-dark);
+  padding: 10px 16px;
+  border-radius: 5px;
+  margin-top: 40px;
+  transition: .15s;
+}
+.survey .links a:hover {
+  background: #012701;
+}
+.survey hr {
+  height: 1px;
+  background: grey;
+  margin-bottom: 50px;
+}
+
 .slide h2 {
   font-size: 4.8rem;
   text-align: center;
@@ -361,7 +407,7 @@ UTILS
   margin-bottom: 100px;
 }
 .plans .container .item {
-  background: #c8eaf4;
+  background: #cdf4c8;
   padding: 40px;
   border-radius: 5px;
 }
@@ -397,7 +443,7 @@ UTILS
   transition: .15s;
 }
 .plans .container .item a:hover {
-  background: #012027;
+  background: #012701;
 }
 
 
@@ -471,9 +517,9 @@ UTILS
   font-family: 'Assistant', Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
   color: var(--color-font);
-  background: #e2f9ff;
+  background: #e4ffe2;
   padding: 5px 10px;
-  border: 1px solid #c8eaf4;
+  border: 1px solid #cdf4c8;
   margin-bottom: 10px;
 }
 .contact form button {
@@ -489,7 +535,13 @@ UTILS
   cursor: pointer;
 }
 .contact form button:hover {
-  background: #012027;
+  background: #012701;
+}
+
+#msg, #msg2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: green;
 }
 
 .footer {
@@ -529,7 +581,7 @@ UTILS
 #loading {
   width: 100vw;
   height: 100vh;
-  background: #c8eaf4;
+  background: #cdf4c8;
   position: fixed;
   top: 0;
   left: 0;
@@ -551,7 +603,7 @@ UTILS
   display: block;
   width: 40px;
   height: 20px;
-  background-color: #c8eaf4;
+  background-color: #cdf4c8;
   position: relative;
   top: 5px;
   right: -20px;
